@@ -1,0 +1,125 @@
+.header-flex {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    border-bottom-style:groove;
+    z-index: 1;
+    background-color:rgb(255, 233, 252);
+    
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    min-width: 320px;
+    max-width: 320px;
+
+
+}
+.Naychi1-image {
+    height: 80px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
+
+}
+.Hamberger-image {
+    height: 60px;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.input-box {
+    height: 65px;
+    flex: 1;
+    border-radius: 20px;
+    color: lightblue;
+    font-size: 30px;
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px;
+    margin-right: 10px;
+    color: lightblue;
+
+
+    
+}
+
+.Insta-button {
+    height:  50px;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    box-shadow: 10px 10px 10px rgb(77, 160, 187);
+}
+.Insta-button:hover {
+    background-color: white;
+    color: black;
+}
+.Fb-button {
+    background-color: rgb(77, 77, 255);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    height:  50px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 10px 10px 10px rgb(141, 141, 255);
+}
+.Fb-button:hover {
+    background-color: white;
+    color: black;
+}
+.right-section {
+    width: 150px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.youtube-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.bell-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+
+
+
+}
+.input-box:hover {
+    background-color: rgb(255, 246, 247);
+}
